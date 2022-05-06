@@ -1,0 +1,16 @@
+.tab-control {
+  display: flex;
+  height: 44px;
+  line-height: 44px;
+}
+
+.tab-item {
+  flex: 1;
+  text-align: center;
+}
+
+.tab-item.active span {
+  color: red;
+  border-bottom: 3px solid red;
+  padding: 5px 8px;
+}
