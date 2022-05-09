@@ -19,6 +19,29 @@ import { createRoot } from 'react-dom/client'
 // import App from './06-跨组件通信/01-跨组件通信-props'
 // import App from './06-跨组件通信/02-跨组件通信-context'
 // import App from './06-跨组件通信/03-跨组件通信-context-函数'
-import App from './06-跨组件通信/04-跨组件通信-多个context-函数'
+// import App from './06-跨组件通信/04-跨组件通信-多个context-函数'
+
+// import App from './07-setState的使用/01-为什么使用setState'
+// import App from './07-setState的使用/02-setState是异步更新'
+
+// import App from './08-性能优化/01-列表中keys的作用'
+// import App from './08-性能优化/02-组件嵌套的render调用'
+// import App from './08-性能优化/03-shouldComponentUpdate'
+// import App from './08-性能优化/05-memo的使用'
+
+// import App from './09-前面知识点补充/01-setState不可变的力量'
+// import App from './09-前面知识点补充/02-全局事件传递'
+
+// import App from './10-受控组件和非受控组件/01-ref的使用'
+// import App from './10-受控组件和非受控组件/02-受控组件和非受控组件'
+
+// import App from './11-高阶组件的使用/01-高阶组件的定义方式'
+// import App from './11-高阶组件的使用/02-高阶组件应用-增强props/App'
+// import App from './11-高阶组件的使用/03-高阶组件应用-渲染判断鉴权/App'
+// import App from './11-高阶组件的使用/04-高阶组件应用-生命周期劫持/App'
+
+// import App from './12-组件内容补充/01-ref的转发'
+// import App from './12-组件内容补充/02-portals的使用'
+import App from './12-组件内容补充/03-fragment的使用'
 
 createRoot(document.getElementById('root')).render(<App />)

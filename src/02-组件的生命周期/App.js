@@ -11,7 +11,7 @@ import React, { Component } from 'react'
 //   }
 //   render() {
 //     console.log('执行了组件的render方法')
-//     return <h1>Hello React</h1>
+//     return <h2>Hello React</h2>
 //   }
 // }
 
@@ -34,7 +34,7 @@ import React, { Component } from 'react'
 //     console.log('执行了组件的render方法')
 //     return (
 //       <div>
-//         <h1>{this.state.message}</h1>
+//         <h2>{this.state.message}</h2>
 //         <button onClick={() => this.handleClick()}>改变文本</button>
 //       </div>
 //     )
@@ -52,7 +52,7 @@ class Cpn extends Component {
     console.log('调用了Cpn组件的componentWillUnmount方法')
   }
   render() {
-    return <h1>我是Cpn组件</h1>
+    return <h2>我是Cpn组件</h2>
   }
 }
 

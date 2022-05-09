@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { createContext, Component } from 'react'
 
-const UserContext = React.createContext({
+const UserContext = createContext({
   name: 'james',
   level: 18
 })
-const ThemeContext = React.createContext({
+const ThemeContext = createContext({
   color: 'black'
 })
 

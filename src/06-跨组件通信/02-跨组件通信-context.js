@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, { createContext, Component } from 'react'
 
 // 创建context对象
-const UserContext = React.createContext({
+const UserContext = createContext({
   name: 'james',
   level: 18
 })
