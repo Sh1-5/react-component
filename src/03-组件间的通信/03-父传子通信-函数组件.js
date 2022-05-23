@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 function ChildCpn(props) {
   const { name, age } = props
-  return <h1>{'name ' + name + ' age ' + age}</h1>
+  return <h2>{'name ' + name + ' age ' + age}</h2>
 }
 
 export default class App extends Component {

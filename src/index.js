@@ -14,12 +14,12 @@ import { createRoot } from 'react-dom/client'
 
 // import App from './04-组件通信案例/App'
 
-// import App from './05-slot/App'
+// import App from './05-跨组件通信/01-跨组件通信-props'
+// import App from './05-跨组件通信/02-跨组件通信-context'
+// import App from './05-跨组件通信/03-跨组件通信-context-函数'
+// import App from './05-跨组件通信/04-跨组件通信-多个context-函数'
 
-// import App from './06-跨组件通信/01-跨组件通信-props'
-// import App from './06-跨组件通信/02-跨组件通信-context'
-// import App from './06-跨组件通信/03-跨组件通信-context-函数'
-// import App from './06-跨组件通信/04-跨组件通信-多个context-函数'
+// import App from './06-slot/App'
 
 // import App from './07-setState的使用/01-为什么使用setState'
 // import App from './07-setState的使用/02-setState是异步更新'
@@ -27,7 +27,8 @@ import { createRoot } from 'react-dom/client'
 // import App from './08-性能优化/01-列表中keys的作用'
 // import App from './08-性能优化/02-组件嵌套的render调用'
 // import App from './08-性能优化/03-shouldComponentUpdate'
-// import App from './08-性能优化/05-memo的使用'
+// import App from './08-性能优化/04-PureComponent'
+import App from './08-性能优化/05-memo的使用'
 
 // import App from './09-前面知识点补充/01-setState不可变的力量'
 // import App from './09-前面知识点补充/02-全局事件传递'
@@ -42,6 +43,6 @@ import { createRoot } from 'react-dom/client'
 
 // import App from './12-组件内容补充/01-ref的转发'
 // import App from './12-组件内容补充/02-portals的使用'
-import App from './12-组件内容补充/03-fragment的使用'
+// import App from './12-组件内容补充/03-fragment的使用'
 
 createRoot(document.getElementById('root')).render(<App />)

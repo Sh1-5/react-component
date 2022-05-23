@@ -19,17 +19,17 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>当前计数：{this.state.counter}</h1>
+        <h2>当前计数：{this.state.counter}</h2>
         <button onClick={() => this.increment()}>+</button>
         <button id="btn">原生+</button>
       </div>
     )
   }
   increment() {
-    this.setState({
-      counter: this.state.counter + 1
-    })
-    console.log(this.state.counter) // 异步更新
+    // this.setState({
+    //   counter: this.state.counter + 1
+    // })
+    // console.log(this.state.counter) // 异步更新
 
     // setTimeout(() => {
     //   this.setState({
@@ -39,20 +39,20 @@ export default class App extends Component {
     // }, 0)
 
     // 解决合并问题
-    // this.setState((prevState, props) => {
-    //   return {
-    //     counter: prevState.counter + 1
-    //   }
-    // })
-    // this.setState((prevState, props) => {
-    //   return {
-    //     counter: prevState.counter + 1
-    //   }
-    // })
-    // this.setState((prevState, props) => {
-    //   return {
-    //     counter: prevState.counter + 1
-    //   }
-    // })
+    this.setState((prevState, props) => {
+      return {
+        counter: prevState.counter + 1
+      }
+    })
+    this.setState((prevState, props) => {
+      return {
+        counter: prevState.counter + 1
+      }
+    })
+    this.setState((prevState, props) => {
+      return {
+        counter: prevState.counter + 1
+      }
+    })
   }
 }

@@ -23,7 +23,7 @@ export default class App extends Component {
     const { counter } = this.state
     return (
       <div>
-        <h1>当前计数：{counter}</h1>
+        <h2>当前计数：{counter}</h2>
         <CounterButton
           increment={() => this.increment()}
           decrement={() => this.decrement()}

@@ -2,17 +2,17 @@ import React, { PureComponent, memo } from 'react'
 
 const MemoHeader = memo(function Header() {
   console.log('Header render被调用')
-  return <h1>我是Header组件</h1>
+  return <h2>我是Header组件</h2>
 })
 
 const MemoMain = memo(function Main() {
   console.log('Main render被调用')
-  return <h1>我是Main组件</h1>
+  return <h2>我是Main组件</h2>
 })
 
 const MemoFooter = memo(function Footer() {
   console.log('Footer render被调用')
-  return <h1>我是Footer组件</h1>
+  return <h2>我是Footer组件</h2>
 })
 
 export default class App extends PureComponent {
@@ -26,7 +26,7 @@ export default class App extends PureComponent {
     console.log('App render被调用')
     return (
       <div>
-        <h1>当前计数：{this.state.counter}</h1>
+        <h2>当前计数：{this.state.counter}</h2>
         <button onClick={() => this.increment()}>+</button>
         <MemoHeader />
         <MemoMain />

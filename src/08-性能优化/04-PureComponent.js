@@ -3,21 +3,21 @@ import React, { PureComponent } from 'react'
 class Header extends PureComponent {
   render() {
     console.log('Header render被调用')
-    return <h1>我是Header组件</h1>
+    return <h2>我是Header组件</h2>
   }
 }
 
 class Main extends PureComponent {
   render() {
     console.log('Main render被调用')
-    return <h1>我是Main组件</h1>
+    return <h2>我是Main组件</h2>
   }
 }
 
 class Footer extends PureComponent {
   render() {
     console.log('Footer render被调用')
-    return <h1>我是Footer组件</h1>
+    return <h2>我是Footer组件</h2>
   }
 }
 
@@ -32,7 +32,7 @@ export default class App extends PureComponent {
     console.log('App render被调用')
     return (
       <div>
-        <h1>当前计数：{this.state.counter}</h1>
+        <h2>当前计数：{this.state.counter}</h2>
         <button onClick={() => this.increment()}>+</button>
         <Header />
         <Main />

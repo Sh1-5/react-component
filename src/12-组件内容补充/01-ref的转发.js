@@ -1,8 +1,12 @@
 import React, { PureComponent, createRef, forwardRef } from 'react'
 
 class Home extends PureComponent {
+  constructor(props) {
+    super(props)
+    this.homeRef = createRef()
+  }
   render() {
-    return <h2>Home</h2>
+    return <h2 ref={this.homeRef}>Home</h2>
   }
 }
 

@@ -10,7 +10,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <h1>电影列表</h1>
+        <h2>电影列表</h2>
         <ul>
           {this.state.movies.map((item, index) => {
             return <li key={item + index}>{item}</li>

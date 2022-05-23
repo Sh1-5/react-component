@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class ChildCpn extends Component {
   render() {
     const { name, age } = this.props
-    return <h1>{'name ' + name + ' age ' + age}</h1>
+    return <h2>{'name ' + name + ' age ' + age}</h2>
   }
 }
 

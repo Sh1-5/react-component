@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class NavBar extends Component {
   render() {
-    const children = this.props.children
+    const { children } = this.props
     return (
       <div className="nav-bar">
         <div className="nav-item nav-left">{children[0]}</div>
