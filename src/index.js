@@ -28,7 +28,7 @@ import { createRoot } from 'react-dom/client'
 // import App from './08-性能优化/02-组件嵌套的render调用'
 // import App from './08-性能优化/03-shouldComponentUpdate'
 // import App from './08-性能优化/04-PureComponent'
-import App from './08-性能优化/05-memo的使用'
+// import App from './08-性能优化/05-memo的使用'
 
 // import App from './09-前面知识点补充/01-setState不可变的力量'
 // import App from './09-前面知识点补充/02-全局事件传递'
@@ -37,7 +37,7 @@ import App from './08-性能优化/05-memo的使用'
 // import App from './10-受控组件和非受控组件/02-受控组件和非受控组件'
 
 // import App from './11-高阶组件的使用/01-高阶组件的定义方式'
-// import App from './11-高阶组件的使用/02-高阶组件应用-增强props/App'
+import App from './11-高阶组件的使用/02-高阶组件应用-增强props/App'
 // import App from './11-高阶组件的使用/03-高阶组件应用-渲染判断鉴权/App'
 // import App from './11-高阶组件的使用/04-高阶组件应用-生命周期劫持/App'
 

@@ -2,8 +2,8 @@ import React, { Component } from 'react'
 
 // 1.挂载阶段
 export default class App extends Component {
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     console.log('执行了组件的constructor方法')
   }
   componentDidMount() {
@@ -17,8 +17,8 @@ export default class App extends Component {
 
 // 2.更新阶段
 // export default class App extends Component {
-//   constructor() {
-//     super()
+//   constructor(props) {
+//     super(props)
 //     this.state = {
 //       message: 'Hello React'
 //     }
@@ -57,8 +57,8 @@ export default class App extends Component {
 // }
 
 // export default class App extends Component {
-//   constructor() {
-//     super()
+//   constructor(props) {
+//     super(props)
 //     this.state = {
 //       isShow: true
 //     }
