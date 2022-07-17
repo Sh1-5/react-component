@@ -5,7 +5,7 @@ function ChildCpn(props) {
   const { name, age, letters } = props
   return (
     <div>
-      <h2>{'name ' + name + ' age ' + age}</h2>
+      <h2>{`Name：${name}，Age：${age}`}</h2>
       <ul>
         {letters.map((item) => {
           return <li>{item}</li>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 class ChildCpn extends Component {
   render() {
     const { name, age } = this.props
-    return <h2>{'name ' + name + ' age ' + age}</h2>
+    return <h2>{`Name：${name}，Age：${age}`}</h2>
   }
 }
 

@@ -17,7 +17,7 @@ import { createRoot } from 'react-dom/client'
 // import App from './05-跨组件通信/01-跨组件通信-props'
 // import App from './05-跨组件通信/02-跨组件通信-context'
 // import App from './05-跨组件通信/03-跨组件通信-context-函数'
-// import App from './05-跨组件通信/04-跨组件通信-多个context-函数'
+import App from './05-跨组件通信/04-跨组件通信-多个context-函数'
 
 // import App from './06-slot/App'
 
@@ -37,7 +37,7 @@ import { createRoot } from 'react-dom/client'
 // import App from './10-受控组件和非受控组件/02-受控组件和非受控组件'
 
 // import App from './11-高阶组件的使用/01-高阶组件的定义方式'
-import App from './11-高阶组件的使用/02-高阶组件应用-增强props/App'
+// import App from './11-高阶组件的使用/02-高阶组件应用-增强props/App'
 // import App from './11-高阶组件的使用/03-高阶组件应用-渲染判断鉴权/App'
 // import App from './11-高阶组件的使用/04-高阶组件应用-生命周期劫持/App'
 
